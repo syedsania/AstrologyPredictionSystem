@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Container styles */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four buttons per row */
+    gap: 10px; /* Adjust the gap between buttons */
+    align-items: center;
+  }
+  
+  /* Button styles */
+  .sign {
+    background-color: #007bff; /* Example background color */
+    color: #fff; /* Example text color */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .sign:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  /* Header styles */
+  h2 {
+    font-size: 20px; /* Adjust the font size */
+    margin-bottom: 15px; /* Adjust spacing */
+  }
+
+  
+
+/* styles.css */
+
+/* Container styles */
+  /* Button styles */
+  .timeframe {
+    background-color: #007bff; /* Example background color */
+    color: #fff; /* Example text color */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin: 5px; /* Add some margin around buttons */
+  }
+  
+  .timeframe:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  /* Header styles */
+  h2 {
+    font-size: 20px; /* Adjust the font size */
+    margin-bottom: 15px; /* Adjust spacing */
+  }
+  
+
+  
